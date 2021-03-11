@@ -1,0 +1,130 @@
+body{
+    background-image: url(./ressources/background/dofus.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+h2{
+    position: absolute;
+    text-align: center;
+    min-width: 100%;
+    font-size: 500%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+h3{
+    position: absolute;
+    text-align: center;
+    min-width: 100%;
+    font-size: 400%;
+    margin-top: 15%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+h4{
+    position: absolute;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 30%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+#description{
+    width: 25%;
+    height: 40em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    border-radius: 5%;
+}
+
+#description:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+footer{
+    text-align: center;
+}
+
+.cacher{
+    visibility: hidden;
+}
+
+footer img{
+    height: 5%;
+    width: 5%;
+    position: relative;
+    margin-top: 42%;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.fondcra{
+    background-image: url(./ressources/background/cra.jpg);
+}
+
+.fondeca{
+    background-image: url(./ressources/background/eca.jpg);
+}
+
+.fondeni{
+    background-image: url(./ressources/background/eni.jpg);
+}
+
+.fondenu{
+    background-image: url(./ressources/background/enu.jpg);
+}
+
+.fondfeca{
+    background-image: url(./ressources/background/feca.jpg);
+}
+
+.fondiop{
+    background-image: url(./ressources/background/iop.jpg);
+}
+
+.fondsadi{
+    background-image: url(./ressources/background/sadi.jpg);
+}
+
+.descricra{
+    background-image: url(./ressources/background/description/cra.jpg);
+}
+
+.descrieca{
+    background-image: url(./ressources/background/description/eca.jpg);
+}
+
+.descrieni{
+    background-image: url(./ressources/background/description/eni.jpg);
+}
+
+.descrienu{
+    background-image: url(./ressources/background/description/enu.jpg);
+}
+
+.descrifeca{
+    background-image: url(./ressources/background/description/feca.jpg);
+}
+
+.descriiop{
+    background-image: url(./ressources/background/description/iop.jpg);
+}
+
+.descrisadi{
+    background-image: url(./ressources/background/description/sadi.jpg);
+}
