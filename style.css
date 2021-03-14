@@ -64,6 +64,11 @@ footer{
     visibility: hidden;
 }
 
+.visible{
+    visibility: visible;
+}
+
+
 footer img{
     height: 5%;
     width: 5%;
@@ -71,7 +76,9 @@ footer img{
     margin-top: 42%;
     box-shadow: 5px 5px 5px black;
     cursor: pointer;
+    border-radius: 50%;
 }
+
 
 .fondcra{
     background-image: url(./ressources/background/cra.jpg);
@@ -127,4 +134,38 @@ footer img{
 
 .descrisadi{
     background-image: url(./ressources/background/description/sadi.jpg);
+}
+
+.characterDescription{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 41%;
+    color: white;
+    font-size: 100%;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#persoContainer{
+  margin: auto;
+}
+
+#avatar{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    width: 12%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#fleche{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 55%;
+    width: 2%;
+    cursor: pointer;
 }
