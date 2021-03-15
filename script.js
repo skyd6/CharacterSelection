@@ -18,12 +18,25 @@ const avatar = document.querySelector("#avatar")
 var craImageIndex = 1
 var ecaImageIndex = 1
 var eniImageIndex = 1
+var enuImageIndex = 1
+var fecaImageIndex = 1
+var iopImageIndex = 1
+var sadiImageIndex = 1
+
 
 const craArray = ['./ressources/personnages/cra/cra1.png','./ressources/personnages/cra/cra2.png','./ressources/personnages/cra/cra3.png','./ressources/personnages/cra/cra4.png','./ressources/personnages/cra/cra5.png','./ressources/personnages/cra/cra6.png','./ressources/personnages/cra/cra7.png','./ressources/personnages/cra/cra8.png']
 
 const ecaArray = ['./ressources/personnages/eca/eca1.png','./ressources/personnages/eca/eca2.png','./ressources/personnages/eca/eca3.png','./ressources/personnages/eca/eca4.png','./ressources/personnages/eca/eca5.png','./ressources/personnages/eca/eca6.png','./ressources/personnages/eca/eca7.png','./ressources/personnages/eca/eca8.png']
 
 const eniArray = ['./ressources/personnages/eni/eni1.png','./ressources/personnages/eni/eni2.png','./ressources/personnages/eni/eni3.png','./ressources/personnages/eni/eni4.png','./ressources/personnages/eni/eni5.png','./ressources/personnages/eni/eni6.png','./ressources/personnages/eni/eni7.png','./ressources/personnages/eni/eni8.png']
+
+const enuArray = ['./ressources/personnages/enu/enu1.png','./ressources/personnages/enu/enu2.png','./ressources/personnages/enu/enu3.png','./ressources/personnages/enu/enu4.png','./ressources/personnages/enu/enu5.png','./ressources/personnages/enu/enu6.png','./ressources/personnages/enu/enu7.png','./ressources/personnages/enu/enu8.png']
+
+const fecaArray = ['./ressources/personnages/feca/feca1.png','./ressources/personnages/feca/feca2.png','./ressources/personnages/feca/feca3.png','./ressources/personnages/feca/feca4.png','./ressources/personnages/feca/feca5.png','./ressources/personnages/feca/feca6.png','./ressources/personnages/feca/feca7.png','./ressources/personnages/feca/feca8.png']
+
+const iopArray = ['./ressources/personnages/iop/iop1.png','./ressources/personnages/iop/iop2.png','./ressources/personnages/iop/iop3.png','./ressources/personnages/iop/iop4.png','./ressources/personnages/iop/iop5.png','./ressources/personnages/iop/iop6.png','./ressources/personnages/iop/iop7.png','./ressources/personnages/iop/iop8.png']
+
+const sadiArray = ['./ressources/personnages/sadi/sadi1.png','./ressources/personnages/sadi/sadi2.png','./ressources/personnages/sadi/sadi3.png','./ressources/personnages/sadi/sadi4.png','./ressources/personnages/sadi/sadi5.png','./ressources/personnages/sadi/sadi6.png','./ressources/personnages/sadi/sadi7.png','./ressources/personnages/sadi/sadi8.png']
 
 
 // fleche.addEventListener("click", function(){
@@ -53,12 +66,15 @@ cra.addEventListener("click", function() {
         avatar.src= craArray[craImageIndex];
         craImageIndex = (craImageIndex + 1)
         if (craImageIndex == 8){
-            craImageIndex = 0 + 1
-        } else {
+            craImageIndex = 0
+        } 
+        else {
             
         }
     })
+    
 })
+
 
 
 eca.addEventListener("click", function() {
@@ -116,6 +132,16 @@ enu.addEventListener("click", function() {
     fichePerso.classList.add("characterDescription")
     avatar.src = './ressources/personnages/enu/enu1.png'
     fleche.src = "./ressources/fleche.png"
+    fleche.addEventListener("click", function(){
+        avatar.src= enuArray[enuImageIndex];
+        enuImageIndex = (enuImageIndex + 1)
+        if (enuImageIndex == 8){
+            enuImageIndex = 0
+        } else {
+            console.log("nothing")
+        }
+    })
+    
 })
 
 feca.addEventListener("click", function() {
@@ -128,6 +154,16 @@ feca.addEventListener("click", function() {
     fichePerso.classList.add("characterDescription")
     avatar.src = './ressources/personnages/feca/feca1.png'
     fleche.src = "./ressources/fleche.png"
+    fleche.addEventListener("click", function(){
+        avatar.src= fecaArray[fecaImageIndex];
+        fecaImageIndex = (fecaImageIndex + 1)
+        if (fecaImageIndex == 8){
+            fecaImageIndex = 0
+        } else {
+            console.log("nothing")
+        }
+    })
+    
 })
 
 iop.addEventListener("click", function() {
@@ -140,6 +176,16 @@ iop.addEventListener("click", function() {
     fichePerso.classList.add("characterDescription")
     avatar.src = './ressources/personnages/iop/iop1.png'
     fleche.src = "./ressources/fleche.png"
+    fleche.addEventListener("click", function(){
+        avatar.src= iopArray[iopImageIndex];
+        iopImageIndex = (iopImageIndex + 1)
+        if (iopImageIndex == 8){
+            iopImageIndex = 0
+        } else {
+            console.log("nothing")
+        }
+    })
+    
 })
 
 sadi.addEventListener("click", function() {
@@ -152,6 +198,16 @@ sadi.addEventListener("click", function() {
     fichePerso.classList.add("characterDescription")
     avatar.src = './ressources/personnages/sadi/sadi1.png'
     fleche.src = "./ressources/fleche.png"
+    fleche.addEventListener("click", function(){
+        avatar.src= sadiArray[sadiImageIndex];
+        sadiImageIndex = (sadiImageIndex + 1)
+        if (sadiImageIndex == 8){
+            sadiImageIndex = 0
+        } else {
+            console.log("nothing")
+        }
+    })
+    
 })
 
 
